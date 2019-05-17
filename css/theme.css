@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #f4f7f9;
+	background-color: #141414;
 	z-index: 999999;
 	-webkit-transition: opacity .5s ease;
 	transition: opacity .5s ease;
@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 65px;
-	padding: 0px 50px;
+	height: 110px;
+	padding: 0px 100px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -111,8 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	background-color: #000;
-	border-bottom: 1px solid rgba(255, 255, 255, .08);
+	background-color: #141414;
 	z-index: 1001;
 }
 #footer{
@@ -131,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;	
-	background-color: #000;
+	background-color: #141414;
 	border-top: 1px solid rgba(255, 255, 255, .08);
 	color: #717171;
 	z-index: 999;
@@ -200,7 +199,6 @@ h1, h2, h3, h4, h5, h6 {
 	-webkit-transform: translate3d(0, 100%, 0);
 	        transform: translate3d(0, 100%, 0);
 }
-
 
 
 
@@ -569,7 +567,6 @@ h1, h2, h3, h4, h5, h6 {
 ===========================*/
 .light-navigation #header {
 	background-color: #fff;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
 }
 .light-navigation #header .logo {
 	color: #000;
