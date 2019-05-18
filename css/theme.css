@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: calc(50% - 25px);
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, .2);
-	border-right-color: #000;
+	border-right-color: #fff;
 	-webkit-animation: fa-spin 1.2s infinite;
 	        animation: fa-spin 1.2s infinite;
 	z-index: 100000;
