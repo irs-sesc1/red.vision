@@ -1948,3 +1948,55 @@ a.page-title-wrapper:hover .page-subtitle:after {
 		min-height: 400px;
 	}
 }
+
+
+
+/* Pricing table
+=========================================*/
+
+/* Create three columns of equal width */
+.columns {
+	float: left;
+	width: 25%;
+	padding: 8px;
+  }
+  
+  /* Style the list */
+  .price {
+	list-style-type: none;
+	border: 1px solid #4d4d4d;
+	margin: 0;
+	padding: 0;
+	-webkit-transition: 0.3s;
+	transition: 0.3s;
+  }
+  
+  /* Pricing header */
+  .price .header {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+  }
+  
+  /* List items */
+  .price li {
+	border-bottom: 1px solid #4d4d4d;
+	padding: 16px;
+	text-align: center;
+	color: white;
+  }
+  
+  /* Grey list item */
+  .price .grey {
+	background-color: #4d4d4d;
+	font-size: 20px;
+	font-weight: bold;
+  }
+  
+  /* Change the width of the three columns to 100% 
+  (to stack horizontally on small screens) */
+  @media only screen and (max-width: 600px) {
+	.columns {
+	  width: 100%;
+	}
+  }
